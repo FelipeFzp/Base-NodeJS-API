@@ -1,0 +1,31 @@
+{
+  "name": "overlay-api",
+  "version": "1.0.0",
+  "description": "API to feed OBS overlay with stream platforms data",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "prod": "node dist/server.js"
+  },
+  "keywords": [
+    "stream",
+    "live",
+    "rest",
+    "api"
+  ],
+  "author": "Felipe P. Zaniol",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inversify": "^5.1.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
