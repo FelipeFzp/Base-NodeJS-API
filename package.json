@@ -1,7 +1,7 @@
 {
   "name": "nodejs-api",
   "version": "1.0.0",
-  "description": "API to feed OBS overlay with stream platforms data",
+  "description": "Base NodeJS project with ExpressJS implementing DI",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
